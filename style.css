@@ -1,0 +1,249 @@
+  /*---------------------------CSS Code-----------------------------*/
+    *{
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+.hero{
+
+    height: 110vh;
+
+    width: 100%;
+
+    background: #b0c4ff;
+
+    font-family: sans-serif;
+
+    position: relative;
+
+}
+
+nav{
+
+    width: 84%;
+
+    margin: auto;
+
+    padding: 0px 0;
+
+    font-size: 1.3rem;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    color: #2856fc;
+}
+
+.logo{
+
+    width: 160px;
+
+    cursor: pointer;
+
+}
+
+nav ul li{
+
+    display: inline-block;
+
+    list-style: none;
+
+    margin: 10px 20px;
+
+}
+
+nav ul li a{
+
+    text-decoration: none;
+
+    color: #4775ff;
+
+    letter-spacing: .5px;
+
+}
+
+nav ul li a:hover{
+
+    color: #001963;
+
+}
+
+.info{
+
+    margin-left: 8%;
+
+    margin-top: 5%;
+
+}
+
+.info h1{
+
+    font-size: 70px;
+
+    color: #212121;
+
+    margin-bottom: 20px;
+
+}
+
+.info p{
+
+    color: #606163;
+
+    line-height: 22px;
+
+    font-size: 19px;
+
+}
+
+.info a{
+
+    background: #ff4321;
+
+    padding: 10px 18px;
+
+    text-decoration: none;
+
+    color: #fff;
+
+    display: inline-block;
+
+    margin: 0;
+
+    border-radius: 5px;
+
+}
+
+span{
+
+    color: #2852d1;
+
+}
+
+.img-box{
+
+    width: 35%;
+
+    height: 80%;
+
+    position: absolute;
+
+    bottom: 0;
+
+    right: 100px;
+
+}
+
+.img-box img{
+
+    height: 100%;
+
+    position: absolute;
+
+    left: 50%;
+
+    bottom: 0;
+
+    transform: translateX(-50%);
+
+    transition: bottom 1s, left 1s;
+
+}
+
+.img-box:hover .back-img{
+
+    bottom: 20px;
+
+}
+
+.img-box:hover .main-img{
+
+    left: 60%;
+
+}
+
+.social-links{
+
+    margin-left: 8%;
+
+    margin-top: 60px;
+
+}
+
+.social-links a{
+
+    font-size: 40px;
+
+    color: #637ac2;
+
+    letter-spacing: 5px;
+
+}
+
+a:hover .fa-facebook{
+
+    color: #3b5998;
+
+}
+
+a:hover .fa-twitter{
+
+    color: #00acee;
+
+}
+
+a:hover .fa-youtube{
+
+    color: #f00;
+
+}
+
+footer {
+
+    background-color: #555;
+
+    color: #fff;
+
+    font-size: 14px;
+
+    bottom: 0;
+
+    position: fixed;
+
+    left: 0;
+
+    right: 0;
+
+    text-align: center;
+
+    z-index: 999;
+
+}
+
+footer p {
+
+    margin: 10px 0;
+
+    font-family: sans-serif;
+
+}
+
+
+
+footer a {
+
+    color: #ff6f61;
+
+    text-decoration: none;
+
+  margin-right:5px;
+
+
+}
+ /*--------------------------CSS Code Ends-----------------------------*/
